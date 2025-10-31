@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon characters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="input">
+            <input type="text" id="text" placeholder="Enter your character of Pokémon">
+            <img src="" id="img" alt="image">
+            <p id="noimg">Sorry, we couldn’t find this Pokémon. 🧐</p>
+            <button type="button" onclick="pokemon()">GO!</button>
+        </div>
+        <div id="popup">
+            <h3>Pokémon List</h3>
+            <h3>Some character you can added</h3>
+            <!-- <p>Pikachu<br>Charmander<br>Bulbasaur<br>Squirtle<br>Eevee</p> -->
+            <p>
+                Bulbasaur<br>
+                Ivysaur<br>
+                Venusaur<br>
+                Charmander<br>
+                Charmeleon<br>
+                Charizard<br>
+                Squirtle<br>
+                Wartortle<br>
+                Blastoise<br>
+                Caterpie<br>
+                Metapod<br>
+                Butterfree<br>
+                Weedle<br>
+                Kakuna<br>
+                Beedrill<br>
+                Pidgey<br>
+                Pidgeotto<br>
+            </p>
+
+            <button onclick="closePopup()">Close</button>
+        </div>
+           <button onclick="openPopup()" class="hint"><small>Hint</small></button>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
